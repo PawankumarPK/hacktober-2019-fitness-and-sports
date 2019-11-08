@@ -25,9 +25,9 @@ class ChestSubCategories : BaseFragment() {
         baseActivity = activity as BaseActivity
         baseActivity.mToolbarTextview.text= "Chest"
         baseActivity.mCoin.visibility = View.GONE
-        mRelativeLayoutOne.setOnClickListener { chest() }
+        mRelativeLayoutOne.setOnClickListener { openChestExercise() }
     }
-    private fun chest(){
+    private fun openChestExercise(){
         fragmentManager!!.beginTransaction().addToBackStack(null)
             .replace(R.id.mFrameLayout,ChestInformation())
             .commit()
