@@ -11,7 +11,6 @@ import android.widget.ImageView
 import com.example.fitnessandsports.fragmentSubCatagories.BaseFragment
 import androidx.recyclerview.widget.RecyclerView
 import com.example.fitnessandsports.R
-
 import com.example.fitnessandsports.utils.Data
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.fitnessandsports.activity.BaseActivity
